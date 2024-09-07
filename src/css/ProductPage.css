@@ -1,0 +1,104 @@
+body{
+    background-color: #E1DDD8;
+    font-family: 'Arboria-Medium', sans-serif;
+}
+
+.three h1 {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+    position: relative;
+  }
+  .three h1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 55px;
+    background-color: #111;
+  }
+  .three h1:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    height: 1px;
+    width: 95%;
+    max-width: 255px;
+    background-color: #333;
+  }
+
+  .three h2 {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+    position: relative;
+  }
+  .three h2:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 55px;
+    background-color: #111;
+  }
+  .three h2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    height: 1px;
+    width: 95%;
+    max-width: 255px;
+    background-color: #333;
+  }
+
+.f-social{
+  margin-top: 70px;
+}
+
+.f-pinterest{
+  background-color: #5e5d5d;
+  color: white;
+}
+
+.f-pinterest:hover{
+  background-color: #cb2027;
+  color: white;
+}
+
+.f-whatsapp{
+  background-color: #5e5d5d;
+  color: white;
+}
+
+.f-whatsapp:hover{
+  background-color: #128c7e;
+  color: #25d366;
+}
+
+.f-instagram{
+  /* text-align: center; */
+  background-color: #5e5d5d;
+  color: white;
+}
+
+.f-instagram p{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.f-instagram:hover{
+  background-color: #6693C1;
+  color: white;
+}
+
+/* .f-social:hover{
+  color: aliceblue;
+} */

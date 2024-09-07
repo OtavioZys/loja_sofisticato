@@ -1,0 +1,102 @@
+/* Navbar container */
+.navbar-collapse {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Start hidden off-screen */
+    width: 96%; /* Adjust width as needed */
+    background-color: #343434;
+    transition: right 0.3s ease-in-out;
+    height: auto; /* Adjust height to fit content */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center;
+    z-index: 1000; /* Ensure it's on top of other content */
+}
+
+/* Show menu */
+.navbar-collapse.in {
+    right: 0; /* Slide in */
+}
+
+/* Navbar items container */
+.navbar-nav {
+    display: flex;
+    flex-direction: row; /* Display items side by side */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Navbar items */
+.navbar-nav > li {
+    margin: 0; /* Remove margin between items to align them properly */
+}
+
+/* Navbar links */
+.navbar-nav > li > a {
+    color: #ffff;
+    padding: 25px 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar-nav > li > a:hover {
+    color: #938686;
+    cursor: pointer;
+}
+
+/* Navbar links */
+.nav-link {
+    color: #ffff;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+}
+
+.nav-link:hover{
+    color: #938686;
+    cursor: pointer;
+}
+
+/* Button to toggle menu */
+#menuToggleBtn {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    z-index: 1050;
+    background-color: transparent;
+    color: #ffff;
+    padding: 10px 15px;
+    border: none;
+}
+
+/* Navbar header */
+.navbar-header {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ensure the header takes full width */
+    justify-content: flex-start; /* Align the header items to the left */
+}
+
+/* Logo */
+.navbar-brand img {
+    height: 50px;
+    width: 100%;
+}
+
+/* Container for fluid alignment */
+.container-fluid {
+    background-color: #343434;
+    padding: 0;
+    width: 100%; /* Ensure full width */
+}
+
+/* Body styling */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}

@@ -1,0 +1,16 @@
+.carousel-inner img {
+    max-width: 100%;
+    max-height: 500px; /* Adjust this value as needed */
+    object-fit: fill; /* Ensure the image covers the area while maintaining its aspect ratio */
+  }
+
+.btn-vermais {
+    background-color: transparent;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btn-vermais:hover {
+    cursor: pointer;
+    color: bisque;
+}
