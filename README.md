@@ -50,21 +50,27 @@ O projeto Sofisticato é uma aplicação de e-catalog. O frontend é desenvolvid
      cd sofisticato-frontend
      
   ## 2. Instalar dependências
+  
    Utilizando npm:
      `npm install`
+     
    Ou utilizando yarn:
     `yarn install`
 
 ## Executando o projeto
   ## 1. Configurar a URL do Backend
+  
    Certifique-se de que a URL da API backend Django está configurada corretamente no arquivo .env do projeto:
      `REACT_APP_BACKEND_URL=http://localhost:8000/api`
      
   ## 2. Rodar o projeto 
+  
    Após configurar a URL do backend, você pode iniciar o servidor de desenvolvimento do React:
-    Utilizando npm:
+   
+   Utilizando npm:
      `npm start`
-    Ou utilizando yarn:
+     
+   Ou utilizando yarn:
      `yarn start`
      
    A aplicação estará disponível em `http://localhost:3000`.
