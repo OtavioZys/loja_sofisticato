@@ -10,10 +10,15 @@ Este repositório contém o código-fonte do frontend do projeto Sofisticato, um
   •  Pré-requisitos
   
   •  Instalação
+  
   • Executando o projeto
+  
   • Estrutura do Projeto
+  
   • Tecnologias Utilizadas
+  
   • Contribuição
+  
   • Licença
 
 ## Visão Geral
@@ -21,15 +26,22 @@ O projeto Sofisticato é uma aplicação de e-catalog. O frontend é desenvolvid
 
 ## Funcionalidades
   • Home Page com Carrossel: Mostra os principais produtos em destaque.
+  
   • Página de Produtos: Exibe uma lista de móveis com filtros por categoria.
+  
   • Detalhes de Produto: Mostra imagens e descrições detalhadas de cada item.
+  
   • Sobre Nós: Informações sobre a história e valores da loja.
+  
   • Contato: Formulário para entrar em contato com a loja e mapa com a localização.
+  
   • Responsividade: Totalmente adaptado para diferentes dispositivos (desktop, tablet, mobile).
 
 ## Pré-requisitos
   • Node.js versão 14 ou superior
+  
   • npm ou yarn para gerenciar pacotes
+  
   • Backend Django configurado e rodando (instruções para o backend estão em seu repositório específico)
 
 ## Instalação
