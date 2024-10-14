@@ -3,9 +3,12 @@
 Este repositório contém o código-fonte do frontend do projeto Sofisticato, uma loja de móveis desenvolvida com React, integrada a um backend Django. O projeto tem como objetivo oferecer uma interface intuitiva e moderna para que os clientes possam navegar pelos produtos, conhecer a história da loja e fazer contato.
 
 ## Índice
-  • Visão Geral /n
+  • Visão Geral 
+  
   •  Funcionalidades 
+  
   •  Pré-requisitos
+  
   •  Instalação
   • Executando o projeto
   • Estrutura do Projeto
