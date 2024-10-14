@@ -47,7 +47,7 @@ O projeto Sofisticato é uma aplicação de e-catalog. O frontend é desenvolvid
 ## Instalação
   ## 1. Clonar o repositório
      git clone https://github.com/OtavioZys/loja_sofisticato.git
-     cd sofisticato-frontend
+     cd loja_sofisticato
      
   ## 2. Instalar dependências
   
