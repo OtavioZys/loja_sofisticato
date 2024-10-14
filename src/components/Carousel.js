@@ -6,7 +6,7 @@ const Carousel2 = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/produtos-carrossel/')
+    fetch('https://sofisticatomoveis.com.br/api/produtos-carrossel/')
       .then(response => response.json())
       .then(data => setProducts(data))
       .catch(error => console.error('Error fetching carousel data:', error));
@@ -32,7 +32,7 @@ const Carousel2 = () => {
           <div key={product.slug} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
             {product.imagens && (
               <img 
-                src={`http://localhost:8000${product.imagens}`} 
+                src={`https://sofisticatomoveis.com.br${product.imagens}`} 
                 /* className="d-block w-100" */ 
                 className="d-block img-fluid"
                 alt={product.descricao || product.nome} 
