@@ -11,7 +11,7 @@ function ProductPage() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch(`http://localhost:8000/api/${categorySlug}/${productSlug}/`)
+        fetch(`https://sofisticatomoveis.com.br0/api/${categorySlug}/${productSlug}/`)
             .then(response => response.json())
             .then(data => {
                 console.log('Fetched product data:', data);
@@ -49,7 +49,7 @@ function ProductPage() {
                                     <Carousel.Item key={index}>
                                         <img
                                             className="d-block img-fluid"
-                                            src={`http://localhost:8000${image.arquivo}`}
+                                            src={`https://sofisticatomoveis.com.br${image.arquivo}`}
                                             alt={product.nome}
                                         />
                                     </Carousel.Item>
