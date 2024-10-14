@@ -1,25 +1,41 @@
-# Getting Started with Create React App
+# Sofisticato - E-commerce Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém o código-fonte do frontend do projeto Sofisticato, uma loja de móveis desenvolvida com React, integrada a um backend Django. O projeto tem como objetivo oferecer uma interface intuitiva e moderna para que os clientes possam navegar pelos produtos, conhecer a história da loja e fazer contato.
 
-## Available Scripts
+## Índice
+  • Visão Geral
+  •  Funcionalidades
+  •  Pré-requisitos
+  •  Instalação
+  • Executando o projeto
+  • Estrutura do Projeto
+  • Tecnologias Utilizadas
+  • Contribuição
+  • Licença
 
-In the project directory, you can run:
+## Visão Geral
+O projeto Sofisticato é uma aplicação de e-catalog. O frontend é desenvolvido em React e se comunica com uma API RESTful em Django para exibir e manipular informações como produtos, categorias, e dados de contato.
 
-### `npm start`
+## Funcionalidades
+  • Home Page com Carrossel: Mostra os principais produtos em destaque.
+  • Página de Produtos: Exibe uma lista de móveis com filtros por categoria.
+  • Detalhes de Produto: Mostra imagens e descrições detalhadas de cada item.
+  • Sobre Nós: Informações sobre a história e valores da loja.
+  • Contato: Formulário para entrar em contato com a loja e mapa com a localização.
+  • Responsividade: Totalmente adaptado para diferentes dispositivos (desktop, tablet, mobile).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Pré-requisitos
+  • Node.js versão 14 ou superior
+  • npm ou yarn para gerenciar pacotes
+  • Backend Django configurado e rodando (instruções para o backend estão em seu repositório específico)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalação
+  ## 1. Clonar o repositório
+    ### `git clone https://github.com/usuario/sofisticato-frontend.git
+         cd sofisticato-frontend`
+  ## 2. Instalar dependências
+    Usando
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
