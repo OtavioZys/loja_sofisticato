@@ -102,3 +102,8 @@ body{
 /* .f-social:hover{
   color: aliceblue;
 } */
+
+.carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+}

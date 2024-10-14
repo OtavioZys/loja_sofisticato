@@ -35,8 +35,8 @@ const Navbar = () => {
               <li><Link className="nav-link" to="/sobre-nos">Identidade</Link></li>
               <li><Link className="nav-link" to="/categorias">Curadoria</Link></li>
               <li><Link className="nav-link" to="/contato">Contato</Link></li>
-              <li><a href="#"><i className="bi bi-pinterest"></i></a></li>
-              <li><a href="#"><i className="bi bi-instagram"></i></a></li>
+              <li><a href="https://www.pinterest.com.br"><i className="bi bi-pinterest"></i></a></li>
+              <li><a href="https://www.instagram.com.br"><i className="bi bi-instagram"></i></a></li>
             </ul>
           </div>
         </div>

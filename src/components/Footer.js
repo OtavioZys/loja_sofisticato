@@ -38,7 +38,7 @@ const Footer = () => {
                     <div style={{ marginTop: '60px' }}>
                         <h3>Contato</h3>
                         <p>Av. Isaac Póvoas, 169, Popular</p>
-                        <p>Cuiabá, MT - 00000-000</p>
+                        <p>Cuiabá, MT - 78020-510</p>
                         <p>sofisticato@sofisticatomoveis.com.br</p>
                         <p>Telefone: (65) 98105-0177</p>
                     </div>

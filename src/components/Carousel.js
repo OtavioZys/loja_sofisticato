@@ -2,14 +2,15 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Carousel.css';
 
-const Carousel = () => {
+const Carousel2 = () => {
   const [products, setProducts] = useState([]);
-  
+
   useEffect(() => {
-    fetch('http://localhost:8000/api/carrossel-true/')
+    fetch('http://localhost:8000/api/produtos-carrossel/')
       .then(response => response.json())
-      .then(data => setProducts(data));
-  }, []);  
+      .then(data => setProducts(data))
+      .catch(error => console.error('Error fetching carousel data:', error));
+  }, []);
 
   return (
     <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
@@ -29,17 +30,18 @@ const Carousel = () => {
       <div className="carousel-inner">
         {products.map((product, index) => (
           <div key={product.slug} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
-            {product.imagens.length > 0 && (
+            {product.imagens && (
               <img 
-                src={`http://localhost:8000${product.imagens[0].arquivo}`} 
-                className="d-block w-100" 
-                alt={product.imagens[0].descricao || product.nome} 
+                src={`http://localhost:8000${product.imagens}`} 
+                /* className="d-block w-100" */ 
+                className="d-block img-fluid"
+                alt={product.descricao || product.nome} 
               />
             )}
             <div className="carousel-caption d-none d-md-block">
               <h5>{product.nome}</h5>
               <p>{product.descricao}</p>
-              <Link to={`/produto/${product.slug}`} className="btn btn-primary">Saiba mais</Link>
+              {/* <Link to={`/produto/${product.slug}`} className="btn-vermais btn-primary">Ver mais</Link> */}
             </div>
           </div>
         ))}
@@ -56,4 +58,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default Carousel2;
