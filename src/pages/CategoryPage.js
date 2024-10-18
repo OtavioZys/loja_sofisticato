@@ -12,7 +12,7 @@ function CategoryPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`http://localhost:8000/api/categorias/${slug}/`)
+    fetch(`https://sofisticatomoveis.com.br/api/categorias/${slug}/`)
       .then(response => response.json())
       .then(data => {
         setCategoryName(data.nome || slug); 
@@ -53,7 +53,7 @@ function CategoryPage() {
                           <img
                             key={index}
                             className="card-img-top mb-5 mb-md-0"
-                            src={`http://localhost:8000${image.arquivo}`}
+                            src={`https://sofisticatomoveis.com.br${image.arquivo}`}
                             alt={product.nome}
                           />
                         ))}
