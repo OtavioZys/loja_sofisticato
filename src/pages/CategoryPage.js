@@ -41,7 +41,7 @@ function CategoryPage() {
         <div className="ten">
           <h1>{categoryName}</h1>
         </div>
-        <section style={{ backgroundColor: '#E1DDD8' }}>
+        <section style={{ backgroundColor: '#FFF' }}>
           <div className="container py-5">
             <div className="row">
               {products.length > 0 ? (

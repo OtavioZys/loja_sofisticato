@@ -1,17 +1,20 @@
-import Carousel from '../components/Carousel';  
-import Footer from '../components/Footer';  
+ import Footer from '../components/Footer';  
 import NavBar from '../components/NavBar';
-import Carousel2 from '../components/Carousel'
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import Carousel2 from '../components/Carousel';
+import '../css/HomePage.css';
 
 
 function HomePage() {
   return (
-    <div>
+    <div style={{ margin: 0, padding: 0 }}>
       <NavBar />
-      <Carousel />
+
+      <section className="py-0">
+      <div className="container-fluid p-0">
+          <Carousel2 />
+      </div>
+      </section>
+
       <Footer />
     </div>
   );

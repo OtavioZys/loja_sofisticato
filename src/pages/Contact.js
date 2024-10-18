@@ -10,7 +10,7 @@ function Contact() {
 
             <Contato />
 
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }

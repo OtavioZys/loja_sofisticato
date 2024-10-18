@@ -1,0 +1,31 @@
+.flex-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    /* align-items: center; */ 
+    width: 100%; 
+    padding: 50px;
+}
+
+.img-container {
+    flex: 1; 
+    max-width: 20%; 
+    max-height: 350px; 
+    margin-right: 5px;
+    align-items: center;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.text {
+    font-family: 'Arboria-Medium', sans-serif;
+    flex: 2; 
+    font-size: 3.2rem; 
+    color: #343434; 
+    text-align: center;
+    margin-top: auto;
+}

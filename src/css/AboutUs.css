@@ -1,0 +1,21 @@
+.button-equipe {
+    display: inline-block; /* Para centralizar */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    background-color: #343434; /* Cor de fundo */
+    color: #E1DDD8; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+    margin-top: 25px;
+}
+
+.button-equipe:hover {
+    background-color: #9e9c99; /* Cor de fundo ao passar o mouse */
+    color: #343434; /* Cor do texto ao passar o mouse */
+}
+
+h2 {
+    font-family: 'Arboria-Medium', sans-serif;
+    color: #808181;
+    font-weight: 505; 
+}

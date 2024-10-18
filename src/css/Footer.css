@@ -1,16 +1,21 @@
 footer {
     background-color: #343434;
     color: #E1DDD8;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
     width: 100%;
     font-family: 'Arboria-Medium', sans-serif;
+    margin: 0;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 0;
+    min-height: 60px;
 }
 
 footer .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0;
 }
 
 footer .row {
@@ -22,13 +27,13 @@ footer .row {
 
 footer .row > div {
     flex: 1;
-    padding: 20px;
+    padding: 10px;
     min-width: 250px; 
     box-sizing: border-box;
 }
 
 footer a {
-    margin: 0 10px;
+    margin: 0 5px;
     color: #E1DDD8;
     text-decoration: none;
 }
@@ -38,6 +43,14 @@ footer a:hover {
 }
 
 .logo img {
-    max-width: 100%;
+    max-width: 200px;
     height: auto;
+}
+
+footer h2, footer h3 {
+    margin:10px 0;
+}
+
+footer p {
+    margin:5px 0;
 }
