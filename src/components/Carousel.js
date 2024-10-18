@@ -5,7 +5,7 @@ const Carousel2 = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch('https://sofisticatomoveis.com.br/api/produtos-carrossel/')
+    fetch('http://localhost:8000/api/produtos-carrossel/')
       .then(response => response.json())
       .then(data => setProducts(data))
       .catch(error => console.error('Error fetching carousel data:', error));

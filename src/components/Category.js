@@ -6,7 +6,7 @@ const Category = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch(`https://sofisticatomoveis.com.br/api/categorias/${slug}/`)
+    fetch(`http://localhost:8000/api/categorias/${slug}/`)
       .then(response => response.json())
       .then(data => setProducts(data));
   }, [slug]);

@@ -10,7 +10,7 @@ function Categories() {
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
-    fetch('https://sofisticatomoveis.com.br/api/categorias/')
+    fetch('http://localhost:8000/api/categorias/')
       .then(response => response.json())
       .then(data => setCategories(data));
   }, []);
@@ -39,7 +39,7 @@ function Categories() {
                 <div
                   className="card-img"
                   style={{
-                    backgroundImage: `url(https://sofisticatomoveis.com.br${category.imagem})`,
+                    backgroundImage: `url(http://localhost:8000r${category.imagem})`,
                   }}
                 >
                   <div className="overlay">

@@ -69,7 +69,7 @@ function ProductPage() {
                                     <Carousel.Item key={index}>
                                         <img
                                             className="d-block img-fluid"
-                                            src={`https://sofisticatomoveis.com.br${image.arquivo}`}
+                                            src={`http://localhost:8000${image.arquivo}`}
                                             alt={product.nome}
                                         />
                                     </Carousel.Item>
